@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+
+<body>
+    <thead>
+        <h1>Create Account</h1>
+    </thead>
+    <tbody>
+        <fieldset>
+            <legend>Registration infonnation</legend>
+            <strong><label for="First name">First name</label></strong>
+            <input type="text" id="First name" placeholder="enter your first name">
+            <strong> <label for="Last name">Last name</label></strong>
+            <input type="text" id="Last name" placeholder="enter your last name"><br>
+            <strong><label for="Email">Email</label></strong>
+            <input type="Email" id="Email" placeholder="enter your email">
+            <strong><label for="Phone">Phone</label></strong>
+            <input type="Phone" id="Phone" placeholder="enter your phone number"><br>
+            <strong><label for="Password">Password</label></strong>
+            <input type="Password" id="Password" placeholder="enter your password">
+            <strong><label for="Confirm Password">Confirm Password</label></strong>
+            <input type="Password" id="Confirm Password" placeholder="enter your password agin">
+        </fieldset>
+        <fieldset>
+            <legend>Personal information</legend>
+            <strong><label for="Gender">Gender:</label></strong>
+            <input type="radio" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Famale">
+            <label for="Famale">Famale</label>
+            <strong><label for="Hobbies">Hobbies :</label></strong>
+            <input type="radio" id="Music">
+            <label for="Music">Music</label>
+            <input type="radio" id="Sports">
+            <label for="Sports">Sports</label>
+            <input type="radio" id="Travel">
+            <label for="Travel">Travel</label>
+            <input type="radio" id="Movies">
+            <label for="Movies">Movies</label>
+            <br><strong><label for="Source of Income">Source of Income :</label></strong>
+            <select>
+                <option>Employed</option>
+            </select>
+            <strong><label for="Income">Income :</label></strong>
+            <input type="range" name="Income" min="1" max="10"><br>
+            <strong><label for="Age">Age</label></strong>
+            <input type="number" id="Age">
+            <strong><label for="Profile Picture">Profile Picture :</label></strong>
+            <input type="file" id="Profile Picture"><br>
+            <strong><label for="Birthday">Birthday :</label></strong>
+            <input type="date" id="Birthday">
+            <strong><label for="Address">Address :</label></strong>
+            <input type="Address" id="Address"><br>
+            <strong><label for="Bio">Bio :</label></strong>
+            <textarea name="Bio" id="Bio" cols="90" rows="10">
+            </textarea>
+        </fieldset>
+    </tbody>
+    <tfoot>
+        <button>Create</button>
+        <button>Reset</button>
+    </tfoot>
+</body>
+
+</html>
